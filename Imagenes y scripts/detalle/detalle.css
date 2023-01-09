@@ -1,121 +1,131 @@
 * {
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-color: #F0ECEC;
+  background-color: #F0ECEC;
 }
 
 /*HEADER*/
-header{
-    position:relative;
-    top:0;
-    margin:auto;
+header {
+  position: relative;
+  top: 0;
+  margin: auto;
 }
+
 .contenedor {
-	max-width:auto;
-	margin: 0 auto;
+  max-width: auto;
+  margin: 0 auto;
   margin-bottom: 4em;
   max-height: fit-content;
   font-size: 25px;
 }
 
 .logo {
-margin-left: 20px;
+  margin-left: 20px;
+  font-size: 35px;
 }
+
 .item1 {
-  padding-left: 570px;
+  padding-left: 465px;
+  font-size: 35px;
 }
+
 .idioma {
   margin-right: 0px;
-  padding-left: 500px;
+  padding-left: 400px;
+  font-size: 35px;
 }
+
 .menu {
-	background:#BA8F70;
-	margin-bottom:10px;
+  background: #BA8F70;
+  margin-bottom: 10px;
+  font-size: 35px;
 }
 
 .menu ul {
-	list-style: none;
-	overflow: hidden;
+  list-style: none;
+  overflow: hidden;
 }
 
 .menu ul li {
-	float: left;
+  float: left;
 }
 
-ul, ol {
-  list-style:none;
+ul,
+ol {
+  list-style: none;
 }
 
-.menu > li {
-  float:left;
+.menu>li {
+  float: left;
 }
 
 .menu ul li a {
-	display: block;
-	padding:20px;
-	color:#fff;
-	text-decoration: none;
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .menu li a {
-  background-color:#000;
-  color:#fff;
-  text-decoration:none;
-  padding:10px 12px;
-  display:block;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
 }
 
 .menu ul .item a:hover {
-	background:#977257;
+  background: #977257;
 }
 
 .menu ul .item1 a:hover {
-	background:#977257;
+  background: #977257;
 }
 
 .menu ul .login a:hover {
-	background:#977257;
+  background: #977257;
 }
+
 .menu ul .idioma a:hover {
-	background:#977257;
+  background: #977257;
 }
 
 .menu li a {
-  background-color:#BA8F70;
-  color:#fff;
-  text-decoration:none;
-  padding:10px 12px;
-  display:block;
+  background-color: #BA8F70;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
 }
 
 .menu li ul {
-  display:none;
-  position:absolute;
-  min-width:140px;
-  right:auto;
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  right: auto;
   top: auto
 }
 
-.menu li:hover > ul {
-  display:block;
+.menu li:hover>ul {
+  display: block;
 }
 
 .menu li ul li {
-  position:relative;
+  position: relative;
 }
 
 /*BARRA BUSQUEDA*/
 .box {
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
   width: 55%;
-  
+
 }
 
-.container-1{
+.container-1 {
   padding: 10 40px 10 25px;
   position: center;
   padding-bottom: 3em;
@@ -130,7 +140,7 @@ ul, ol {
   position: relative;
 }
 
-.container-1 input#search{
+.container-1 input#search {
   width: 1200px;
   height: 60px;
   background: #292c2f;
@@ -149,24 +159,24 @@ ul, ol {
 /*MAIN*/
 
 iframe {
-  margin-left:650px;
+  margin-left: 650px;
   margin-bottom: 4em;
 }
 
 table {
   text-align: left;
-  margin: auto ;
+  margin: auto;
   border-collapse: collapse;
 }
 
-table .mainrow{
+table .mainrow {
   padding-left: 35em;
-  float: left; 
-  width: 45%; 
+  float: left;
+  width: 45%;
   text-align: justify;
 }
 
-table .secrow{
+table .secrow {
   padding-left: 50px;
   padding-right: 35em;
 }
@@ -189,6 +199,7 @@ table .secrow{
   font-size: 14px;
   margin: 0;
 }
+
 /* Footer links */
 
 .footer-distributed p.footer-links {
@@ -224,4 +235,3 @@ table .secrow{
 .footer-links .link {
   padding-left: 2em;
 }
-
