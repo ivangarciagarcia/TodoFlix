@@ -113,8 +113,7 @@ ul, ol {
 
 /*BARRA BUSQUEDA*/
 .box {
-  margin:0px;
-  padding:0px;
+  margin-left: 90px;
   width: 55%;
   
 }
@@ -149,17 +148,50 @@ ul, ol {
 }
 
 /*MAIN*/
+
+.container {
+  margin-right: 400px;
+}
+
+    /*GALERIA*/
+#slider {
+  text-align: center; /* Centra todos los elementos dentro de la div */
+  width: 800px; /* Ancho del contenedor */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+#images img {
+  display: inline-block; /* Posiciona las imágenes en línea */
+  margin: 0 auto; /* Centra las imágenes */
+}
+
+#previous-button {
+  position: absolute; /* Posiciona el botón de manera absoluta */
+  top: 50%; /* Centra el botón verticalmente */
+  left: 0; /* Posiciona el botón al borde izquierdo de la imagen */
+  transform: translateY(-50%); /* Desplaza el botón hacia arriba para centrarlo verticalmente */
+}
+
+#next-button {
+  position: absolute; /* Posiciona el botón de manera absoluta */
+  top: 50%; /* Centra el botón verticalmente */
+  right: 0; /* Posiciona el botón al borde derecho de la imagen */
+  transform: translateY(-50%); /* Desplaza el botón hacia arriba para centrarlo verticalmente */
+}
+
+
+    /*TABLAS*/
+    
 .titulo{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    padding-top: 30px;
-    margin-left: 317px;
+    margin-top: 50px;
     margin-bottom: 20px;
   }
   
   table {
-    margin: 0 auto;
+    margin-right: 0 auto;
     border-collapse: collapse;
   }
   
@@ -168,11 +200,6 @@ ul, ol {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-  }
-
-  #slider {
-    width: 800px; /* Ancho del contenedor */
-    margin: 0 auto; /* Centrar horizontalmente */
   }
 
   /*Footer*/
