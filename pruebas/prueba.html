@@ -8,6 +8,42 @@
     <title>Document</title>
 </head>
 <body>
+
+  <header>
+		<div class="contenedor">
+			<nav class="menu">
+				<ul>
+					<li class="logo"><a href=""><b>TodoFlix</b></a></li>
+					<li class="item1"><a href="/index.html">Home</a></li>
+					<li class="item"><a href="#">Peliculas</a>
+                        <ul>
+                            <li><li class="genero"><a href="#">Accion</a></li>
+                            <li><li class="genero"><a href="#">Comedia</a></li>
+                        </ul>
+                    </li>
+					<li class="item"><a href="#">Series</a>
+                        <ul>
+                            <li><li class="genero"><a href="#">Accion</a></li>
+                            <li><li class="genero"><a href="#">Aventura</a></li>
+                        </ul>
+                    </li>
+					<li class="item"><a href="#">MiLista</a></li>
+                    <li class="idioma" id="idioma"><a href="#">Es</a></li>
+                    <li class="login"><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+
+    <main>
+      <div class="box">
+        <div class="container-1">
+            <span class="icon"><i class="fa fa-search"></i></span>
+            <input type="search" id="search" placeholder="Search..." />
+        </div>
+      </div>
+
+
     <div id="slider">
         <div id="previous-button">
           <button id="previous">Anterior</button>
@@ -17,12 +53,29 @@
         </div>
 
         <div id="images">
-        <img src="/Imagenes y scripts/img/tendencias/topGun.jpg" alt="Imagen 1" width="600" height="400">
-        <img src="/Imagenes y scripts/img/tendencias/blackAdam.jpg" alt="Imagen 2" width="600" height="400">
-        <img src="/Imagenes y scripts/img/tendencias/guardianes.jpg" alt="Imagen 3" width="600" height="400">
+          <img src="/Imagenes y scripts/img/tendencias/topGun.jpg" alt="Imagen 1" width="600" height="400">
+          <img src="/Imagenes y scripts/img/tendencias/blackAdam.jpg" alt="Imagen 2" width="600" height="400">
+          <img src="/Imagenes y scripts/img/tendencias/guardianes.jpg" alt="Imagen 3" width="600" height="400">
         </div>
         
       </div>
+      <h1 id="titulo" class="tendencias">ESTRENOS</h1>
+      <table class="table"> 
+        <tbody> 
+          <tr>
+
+            <td><a href="/detalle.html"><img id="1" loading="lazy" src="/Imagenes y scripts/img/estrenos/armagedon.jpg" alt="Armagedon" width="300" height="400"></a><br>Armagedon</td>
+            <td><a href="/detalle.html"><img id="1" loading="lazy" src="/Imagenes y scripts/img/estrenos/armagedon.jpg" alt="Armagedon" width="300" height="400"></a><br>Armagedon</td>
+            <td><a href="/detalle.html"><img id="1" loading="lazy" src="/Imagenes y scripts/img/estrenos/armagedon.jpg" alt="Armagedon" width="300" height="400"></a><br>Armagedon</td>
+            <td><a href="/detalle.html"><img id="1" loading="lazy" src="/Imagenes y scripts/img/estrenos/armagedon.jpg" alt="Armagedon" width="300" height="400"></a><br>Armagedon</td>
+
+            
+          </tr>
+        </tbody>
+      </table>      
+    </main>
+
+
 </body>
 <script src="prueba.js"></script>
 </html>
