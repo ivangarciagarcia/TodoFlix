@@ -1,0 +1,22 @@
+#slider {
+  text-align: center; /* Centra todos los elementos dentro de la div */
+}
+
+#images img {
+  display: inline-block; /* Posiciona las imágenes en línea */
+  margin: 0 auto; /* Centra las imágenes */
+}
+
+#previous-button {
+  position: absolute; /* Posiciona el botón de manera absoluta */
+  top: 50%; /* Centra el botón verticalmente */
+  left: 0; /* Posiciona el botón al borde izquierdo de la imagen */
+  transform: translateY(-50%); /* Desplaza el botón hacia arriba para centrarlo verticalmente */
+}
+
+#next-button {
+  position: absolute; /* Posiciona el botón de manera absoluta */
+  top: 50%; /* Centra el botón verticalmente */
+  right: 0; /* Posiciona el botón al borde derecho de la imagen */
+  transform: translateY(-50%); /* Desplaza el botón hacia arriba para centrarlo verticalmente */
+}

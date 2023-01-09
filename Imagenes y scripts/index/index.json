@@ -1,0 +1,106 @@
+{
+    "tendencias":[
+        {
+            "id" : 1,
+            "imagen":"Imagenes y scripts/img/tendencias/blackAdam.jpg" ,
+            "titulo":"BlackAdam",
+            "url": "detalle.html#1"
+        },
+        {
+            "id" : 2,
+            "imagen":"Imagenes y scripts/img/tendencias/smile.jpg" ,
+            "titulo":"Smile",
+            "url": "detalle.html#2"
+        },
+        {
+            "id" : 3,
+            "imagen":"Imagenes y scripts/img/tendencias/topGun.jpg" ,
+            "titulo":"TopGun",
+            "url": "detalle.html#3"
+        },
+        {
+            "id" : 4,
+            "imagen":"Imagenes y scripts/img/tendencias/wakanda.png" ,
+            "titulo":"Black Panther: Wakanda forever",
+            "url": "detalle.html#4"
+        }
+    ],
+    "tendencias2":[
+        {
+            "id" : 5,
+            "imagen":"Imagenes y scripts/img/tendencias/lepatient.jpg" ,
+            "titulo":"Le Patient",
+            "url": "detalle.html#5"
+        },
+        {
+            "id" : 6,
+            "imagen":"Imagenes y scripts/img/tendencias/guardianes.jpg" ,
+            "titulo":"Guardianes de la Galaxia: Especial Navidad ",
+            "url": "detalle.html#6"
+        },
+        {
+            "id" : 7,
+            "imagen":"Imagenes y scripts/img/tendencias/triangulo.jpg" ,
+            "titulo":"Triangle of Sadness",
+            "url": "detalle.html#7"
+        },
+        {
+            "id" : 8,
+            "imagen":"Imagenes y scripts/img/tendencias/womanKing.jpg" ,
+            "titulo":"WomanKing",
+            "url": "detalle.html#8"
+        }
+    ],
+    "estrenos":[
+        {
+            "id" : 9,
+            "imagen":"Imagenes y scripts/img/estrenos/armagedon.jpg" ,
+            "titulo":"Armageddon Time",
+            "url": "detalle.html#9"
+        },
+        {
+            "id" : 10,
+            "imagen":"Imagenes y scripts/img/estrenos/doc.jpg" ,
+            "titulo":"The Good Doctor",
+            "url": "detalle.html#10"
+        },
+        {
+            "id" : 11,
+            "imagen":"Imagenes y scripts/img/estrenos/pennyworth.jpg" ,
+            "titulo":"PennyWorth",
+            "url": "detalle.html#11"
+        },
+        {
+            "id" : 12,
+            "imagen":"Imagenes y scripts/img/estrenos/sam.jpg" ,
+            "titulo":"Sam & Kate",
+            "url": "detalle.html#12"
+        }
+    ],
+    "estrenos2":[
+        {
+            "id" : 13,
+            "imagen":"Imagenes y scripts/img/estrenos/thecleaninglady.jpg" ,
+            "titulo":"La chica de la limpieza",
+            "url": "detalle.html#13"
+        },
+        {
+            "id" : 14,
+            "imagen":"Imagenes y scripts/img/estrenos/till.jpg" ,
+            "titulo":"Till",
+            "url": "detalle.html#14"
+        },
+        {
+            "id" : 15,
+            "imagen":"Imagenes y scripts/img/estrenos/troll.jpg" ,
+            "titulo":"Troll",
+            "url": "detalle.html#15"
+        },
+        {
+            "id" : 16,
+            "imagen":"Imagenes y scripts/img/estrenos/vendetta.jpg" ,
+            "titulo":"My name is Vendetta",
+            "url": "detalle.html#16"
+        }
+    ]
+}

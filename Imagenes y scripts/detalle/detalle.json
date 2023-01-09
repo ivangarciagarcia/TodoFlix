@@ -1,0 +1,164 @@
+{
+    "peliculas":[
+        {
+            "id" : 1,
+            "imagen":"Imagenes y scripts/img/tendencias/blackAdam.jpg" ,
+            "titulo":"BlackAdam",
+            "ano":2022,
+            "duracion":125,
+            "sinopsis": "Black Adam es la película del antihéroe de DC Comics que da nombre al filme -encarnado por Dwayne Johnson- gran antagonista de Shazam!.Este largometraje es la hisotoria de su origen y revelando su pasado como esclavo en el país Kahndaq. Nacido en el Antiguo Egipto, Black Adam tiene superfuerza, velocidad, resistencia, la capacidad de volar y disparar rayos. Alter ego de Teth-Adam e hijo del faraón Ramsés II, fue consumido por sus poderes mágicos y se transformó en un hechicero. Gran enemigo de Shazam! en los cómics, a pesar de creer en su potencial e incluso ofrecerlo como guerrero del bien, Black Adam acaba utilizando sus habilidades especiales para el mal. Sin embargo, un grupo de héroes conocido como la JSA encabezados por Doctor Fate (Pierce Brosnan) tratarán que el peligroso superhumano busque la redención y pase a utilizar sus poderes para hacer el bien, ievocando a la humanidad que alguna vez habitó en su interior.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/_yn30cCrPJM"
+        },
+        {
+            "id" : 2,
+            "imagen":"Imagenes y scripts/img/tendencias/smile.jpg" ,
+            "titulo":"Smile",
+            "ano":2022,
+            "duracion":115,
+            "sinopsis": "Después de presenciar un incidente extraño y traumático que involucra a un paciente, la Dra. Rose Cotter (Sosie Bacon) comienza a experimentar sucesos aterradores que no puede explicar. A medida que un terror abrumador comienza a apoderarse de su vida, Rose debe enfrentar su inquietante pasado para poder sobrevivir y escapar de su nueva y horrible realidad.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/yhKiQGJop_8"
+        },
+        {
+            "id" : 3,
+            "imagen":"Imagenes y scripts/img/tendencias/topGun.jpg" ,
+            "titulo":"TopGun",
+            "ano":2022,
+            "duracion":131,
+            "sinopsis": "Después de más de treinta años de servicio como uno de los mejores aviadores de la Armada, Pete Mavericks Mitchel (Tom Cruise) se encuentra donde siempre quiso estar: superando los límites como un valiente piloto de pruebas y esquivando el ascenso de rango, que no le dejaría volar emplazándolo en tierra. Cuando es destinado a la academia de Top Gun con el objetivo de entrenar a los pilotos de élite para realizar una peligrosa misión en territorio enemigo, Maverick se encuentra allí con el joven teniente Bradley Bradshaw (Miles Teller), el hijo de su difunto amigo Goose",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/zmFdhZ6gyUM"
+        },
+        {
+            "id" : 4,
+            "imagen":"Imagenes y scripts/img/tendencias/wakanda.png" ,
+            "titulo":"Black Panther: Wakanda forever",
+            "ano":2022,
+            "duracion":161,
+            "sinopsis": "La reina Ramonda (Angela Bassett), Shuri (Letitia Wright), M’Baku (Winston Duke), Okoye (Danai Gurira) y las Dora Milaje (incluida Florence Kasumba), luchan para proteger su nación de la injerencia de potencias mundiales a raíz de la muerte del rey T’Challa. Mientras los wakandianos se esfuerzan por adaptarse a su nueva etapa, los héroes deben actuar unidos, con la ayuda del Perro de la Guerra Nakia (Lupita Nyong’o) y Everett Ross (Martin Freeman), y forzar un nuevo destino para el reino de Wakanda.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/INvxJD4FzLk"
+        },
+        {
+            "id" : 5,
+            "imagen":"Imagenes y scripts/img/tendencias/lepatient.jpg" ,
+            "titulo":"Le Patient",
+            "ano":2022,
+            "duracion":92,
+            "sinopsis": "Thomas, de 19 años, se despierta en un hospital después de 3 años en coma. No recuerda nada. La psicóloga Anna le dice que su familia ha sido asesinada y que él es el único sobreviviente de la masacre, mientras que su hermana Laura sigue desaparecida.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/_1DZJ7jYGbIU"
+        },
+        {
+            "id" : 6,
+            "imagen":"Imagenes y scripts/img/tendencias/guardianes.jpg" ,
+            "titulo":"Guardianes de la Galaxia: Especial Navidad ",
+            "ano":2022,
+            "duracion":40,
+            "sinopsis": "Con la misión de hacer que Quill tenga una Navidad inolvidable, los Guardianes se dirigen a la Tierra en busca del regalo perfecto.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/qz8xmbg"
+        },
+        {
+            "id" : 7,
+            "imagen":"Imagenes y scripts/img/tendencias/triangulo.jpg" ,
+            "titulo":"Triangle of Sadness",
+            "ano":2022,
+            "duracion":149,
+            "sinopsis": "Tras la Semana de la moda, Carl y Yaya, pareja de modelos e influencers, son invitados a un yate en un crucero de lujo. Mientras que la tripulación brinda todas las atenciones necesarias a los ricos invitados, el capitán se niega a salir de su cabina, a pesar de la llegada inminente de la célebre cena de gala. Los eventos toman un giro inesperado y el equilibrio de poder se invierte cuando se levanta una tormenta que pone en peligro el confort de los pasajeros.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/CIa6_YRTU-g"
+        },
+        {
+            "id" : 8,
+            "imagen":"Imagenes y scripts/img/tendencias/womanKing.jpg" ,
+            "titulo":"WomanKing",
+            "ano":2022,
+            "duracion":135,
+            "sinopsis": "Una epopeya histórica inspirada en los hechos reales que sucedieron en el Reino de Dahomey, uno de los estados más poderosos de África en los siglos XVIII y XIX. La historia sigue a Nanisca (Davis), general de la unidad militar exclusivamente femenina y a Nawi (Mbedu), una recluta ambiciosa. Juntas lucharon contra enemigos que violaron su honor, esclavizaron a su gente y amenazaron con destruir todo por lo que habían vivido.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/HhGa--oFFkQ"
+        },
+        {
+            "id" : 9,
+            "imagen":"Imagenes y scripts/img/estrenos/armagedon.jpg" ,
+            "titulo":"Armageddon Time",
+            "ano":2022,
+            "duracion":114,
+            "sinopsis": "Paul Graff lleva una infancia tranquila en los suburbios neoyorquinos. Junto a Johnny, un compañero de clase excluido por su color de piel, se dedican a hacer travesuras. Paul cree contar con la protección de su madre, presidenta de la asociación de madres y padres de alumnos, y de su abuelo, con el que mantiene una muy buena relación. Pero, tras un incidente, es enviado a una escuela privada, cuyo consejo de administración cuenta con el padre de Donald Trump como uno de sus miembros. El elitismo y el racismo sin complejos con el que se encuentra cambiarán drásticamente su mundo.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/zfMtzQAwURs"
+        },
+        {
+            "id" : 10,
+            "imagen":"Imagenes y scripts/img/estrenos/doc.jpg" ,
+            "titulo":"The Good Doctor",
+            "ano":2017,
+            "duracion":45,
+            "sinopsis": "Shaun Murphy (Freddie Highmore) es un joven cirujano residente que padece autismo y síndrome de Savant, conocido también como el “síndrome del sabio”, una enfermedad que le causa problemas a la hora de relacionarse con los demás, pero que a su vez le ha permitido desarrollar unas habilidades mentales prodigiosas, como una extraordinaria memoria. A pesar de que Shaun ha tenido una infancia muy complicada, se ha convertido en un médico con mucho talento y ha sido reclutado por el doctor Aaron Glassman (Richard Schiff) en la unidad de cirugía pediátrica del prestigioso San José St. Bonaventure Hospital. Sin embargo, no toda la junta del hospital se muestra conforme con la decisión de incorporar al equipo a un cirujano con autismo. Shaun tendrá que despejar las dudas y demostrar su valía, y aunque pueda encontrar su camino hacia la sala de operaciones, todavía hay muchos desafíos y prejuicios a los que debe hacer frente para cumplir su sueño de salvar vidas.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/Inozc9Oq1bs"
+        },
+        {
+            "id" : 11,
+            "imagen":"Imagenes y scripts/img/estrenos/pennyworth.jpg" ,
+            "titulo":"PennyWorth",
+            "ano":2017,
+            "duracion":60,
+            "sinopsis": "Alfred Pennyworth, antiguo soldado de las fuerzas especiales británicas, decide montar una empresa de seguridad donde comienza a trabajar para Thomas Wayne, el padre de Bruce, debido a una conspiración criminal contra él. Ambientada en el Londres de 1960, la ficción muestra muestra cómo era la vida de Alfred, un joven y carismático militar antes de convertirse en el mayordomo de Batman, Bruce Wayne, y acabar como su fiel ayudante. ",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/Fk7j45A9Tm0"
+        },
+        {
+            "id" : 12,
+            "imagen":"Imagenes y scripts/img/estrenos/sam.jpg" ,
+            "titulo":"Sam & Kate",
+            "ano":2022,
+            "duracion":110,
+            "sinopsis": "Dustin Hoffman interpreta a Bill, un padre al cuidado de Sam (Jake Hoffman), quien ha regresado a casa para cuidar a su padre enfermo. Mientras está en casa, Sam se enamora de una mujer local, Kate (Fisk). Al mismo tiempo, Bill comienza a enamorarse de su madre, Tina (Spacek).",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/-prs0wX--RQ"
+        },
+        {
+            "id" : 13,
+            "imagen":"Imagenes y scripts/img/estrenos/thecleaninglady.jpg" ,
+            "titulo":"La chica de la limpieza",
+            "ano":2022,
+            "duracion":45,
+            "sinopsis": "Una doctora camboyana llega a los Estados Unidos para recibir un tratamiento médico para salvar a su hijo, pero cuando el sistema falla y la empuja a esconderse, ella usa su astucia e inteligencia para contraatacar, infringiendo la ley por todas las razones correctas.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/pVRGXZNfQ8c"
+        },
+        {
+            "id" : 14,
+            "imagen":"Imagenes y scripts/img/estrenos/till.jpg" ,
+            "titulo":"Till",
+            "ano":2022,
+            "duracion":130,
+            "sinopsis": "Drama inspirado en los hechos reales que siguieron al horrendo linchamiento de Emmett Till  en 1955. 'Till' es una película profundamente emotiva y cinematográfica sobre la historia real de la incesante búsqueda de justicia de Mamie Till-Mobley para su hijo de 14 años, Emmett Till, quien, en 1955, fue linchado mientras visitaba a sus primos en Mississippi. En el conmovedor viaje de duelo de Mamie, vemos el poder universal de la capacidad de una madre para cambiar el mundo.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/lRrLnQoeuYE"
+        },
+        {
+            "id" : 15,
+            "imagen":"Imagenes y scripts/img/estrenos/troll.jpg" ,
+            "titulo":"Troll",
+            "ano":2022,
+            "duracion":101,
+            "sinopsis": "En las profundidades de la montaña de Dovre, cerca de Oslo, una explosión despierta a un ser gigantesco después de pasarse un milenio aprisionado. Este ser comienza a arrasar todo lo que encuentra a su paso mientras se dirige sin detenerse hacia la capital de Noruega. Pero, ¿cómo se puede parar a algo que supuestamente era solo una leyenda? Las autoridades recurren entonces a Nora Tidemann (Ine Marie Wilmann), una audaz paleontóloga que tratará de aportar todo su conocimiento para evitar que este trol ancestral siembre el caos.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/G64RuGxp8WE"
+        },
+        {
+            "id" : 16,
+            "imagen":"Imagenes y scripts/img/estrenos/vendetta.jpg" ,
+            "titulo":"My name is Vendetta",
+            "ano":2022,
+            "duracion":90,
+            "sinopsis": "Un padre y su hija no se quedarán de brazos cruzados tras el asesinato de su familia. Santo usará sus habilidades para cobrarle cada crimen a sus viejos enemigos. Te contamos todo sobre la película Me llamo Venganza.",
+            "url": "detalle.html",
+            "trailer": "https://www.youtube.com/embed/O6hmIB3w"
+        }
+    ]
+}

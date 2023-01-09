@@ -1,0 +1,61 @@
+html{
+  background-color: #BA8F70;
+}
+a {
+   text-decoration:none;
+   color: #BA8F70; 
+} 
+
+.login a{
+  text-decoration:none;
+  color: white; 
+} 
+
+
+.login-form:before {
+  content: "Login"; /* adds the text "Login" before the form */
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.login-form {
+  
+  position: absolute; /* positions the form absolutely within its container */
+  top: 50%; /* positions the form vertically in the middle of the page */
+  left: 50%; /* positions the form horizontally in the middle of the page */
+  transform: translate(-50%, -50%); /* offsets the form to account for its own size */
+  width: 400px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#user,
+#pass {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#login {
+  background-color: #BA8F70;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login:hover {
+  opacity: 0.8;
+}
