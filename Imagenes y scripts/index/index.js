@@ -1,31 +1,5 @@
 window.onload = ()=>{
 
-     const languaje = document.getElementById('idioma');
-     let originalLanguaje = languaje.textContent;
-
-     function getCookie(idioma){
-          let n, nombre, valor;
-          let cookie = document.cookie.split(";");
-          for (let i = 0; i < cookie.length; i++) {
-              n = cookie[i].split("=");
-              nombre = n[0];
-              valor = n[1];
-              if (nombre.trim() == idioma.trim()) {
-                    return valor;
-              }
-          }
-          return null;
-     }
-     languaje.addEventListener('click', function() {
-          if (this.textContent === originalLanguaje) {
-            this.textContent = 'En';
-          } else {
-            this.textContent = originalLanguaje;
-          }
-        });
-
-
-
          const xhr = new XMLHttpRequest();
          xhr.open('GET', 'Imagenes y scripts/index/index.json', true);        
          xhr.onload = function() {
