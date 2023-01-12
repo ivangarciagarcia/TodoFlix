@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Ejemplo uso radio</title>
+    <script>
+
+    const iniciar = ()=>{
+        // asociamos al evento submit del elemento formulario la función de validación
+        document.getElementById("frmRadio").addEventListener("submit", comprobar)
+    }
+    
+    document.addEventListener("DOMContentLoaded", iniciar);
+
+    const comprobar = (e) =>{
+        let hayError = false;
+        let valor = document.getElementById('nombre').value;
+        let mensaje="<hr>";
+
+        if (valor == null || valor.length == 0) {
+            hayError = true;
+            mensaje += "Debe ingresar un nombre <br>";
+        }
+
+        // obtenemos todos los input radio del grupo horario que esten chequeados
+        // si no hay ninguno lanzamos alerta
+        if (!document.querySelector('input[name="horario"]:checked')) {
+            hayError = true;
+            mensaje += "Debe seleccionar un horario <br>";
+        }
+
+        if (!registro.checked) {
+            hayError = true;
+            mensaje += "Debe aceptar las normas de registro <br>";
+        }
+
+        // si hay algún error no efectuamos la acción submit del form
+        if (hayError){
+            e.preventDefault();
+            document.getElementById("errores").innerHTML = mensaje;
+        }
+    };
+</script>
+    </script>
+</head>
+
+<body>
+    <form id="frmRadio" name="frmRadio">
+        <label>Nombre:<input type="text" id="nombre" name="nombre"></label><br>
+
+        <label>Horario:<input type="radio" name="horario" value="mañana"></label><br>
+    <label>Mañana<input type="radio" name="horario" value="tarde"><label>Tarde</label></label><br>
+
+    <label>Aceptar las normas de registro:<input type="checkbox" name="registro" value="registro" id="registro"></label><br>
+    <br>
+    <input type="submit" value="Enviar">
+</form>
+<div id="errores"></div>
+</body>
+</html>

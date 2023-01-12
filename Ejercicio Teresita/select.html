@@ -1,0 +1,52 @@
+<!DOCTYPE  html>
+<html>
+    <head>
+        <meta  http-equiv="content-type"  content="text/html;charset=utf-8">
+        <title>DWEC05 - Trabajando con un objeto Select</title>
+        <style>
+            ul {list-style-type: none;}
+        </style>
+        <script  type="text/javascript">
+            let frmSelect;
+            const iniciar = ()=>{
+                frmSelect = document.getElementById("frmSelect");
+                // asociamos al evento change del elemento select la función de validación
+                frmSelect.provincias.addEventListener("change", consultar);
+            }
+            
+            document.addEventListener("DOMContentLoaded", iniciar);
+
+        const consultar = () => {
+            let provincias = document.getElementById("provincias");
+            let texto = provincias.options[provincias.selectedIndex].text;
+            let valor = provincias.options[provincias.selectedIndex].value;
+            document.getElementById("informacion").innerHTML = `Datos de la opción seleccionada:<br>Texto: ${texto}<br>Valor: ${valor}`;
+        }
+    </script>
+</head>
+<body>
+    <h1>Trabajando con un objeto Select</h1>
+    <ul>
+        <b>Propiedades:</b>
+        <li>options: conjunto de opciones (elementos &lt;option&gt;</li>
+        <li>value: el valor del elemento &lt;option&gt; seleccionado, y</li>    
+        <li>selectedIndex: el número del elemento &lt;option&gt; seleccionado.</li>
+    </ul>
+    <form id="frmSelect">
+        <p>
+            <label for="provincias">Seleccione provincia: </label>
+            <select name="provincias" id="provincias">
+                <option value="AL">Almería</option>
+                <option value="JA">Jaen</option>
+                <option value="GR">Granada</option>
+                <option value="MA">Málaga</option>
+                <option value="SE">Sevilla</option>
+                <option value="CO">Córdoba</option>
+                <option value="CA">Cádiz</option>
+                <option value="HU">Huelva</option>
+            </select>
+        </p>
+    </form>
+    <div id="informacion"></div>
+</body>
+</html>
