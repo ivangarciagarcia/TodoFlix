@@ -1,42 +1,18 @@
-function readCookie(idioma) {
+// Crea una cookie llamada "idioma" con el valor "Español"
+localStorage.setItem("idioma", "Español");
 
-  var idiomaEQ = idioma + "="; 
-  var cookie = document.cookie.split(';');
+// Asigna un evento click al elemento con id "cambiarIdioma"
+document.getElementById("cambiarIdioma").addEventListener("click", function() {
+  // Obtiene el valor actual de la cookie "idioma"
+  var idiomaActual = localStorage.getItem("idioma");
 
-  for(var i=0;i < cookie.length;i++) {
-
-    var c = cookie[i];
-    while (c.charAt(0)==' ') c = c.substring(1,c.length);
-    if (c.indexOf(idiomaEQ) == 0) {
-      return decodeURIComponent( c.substring(idiomaEQ.length,c.length) );
-    }
-
+  // Si el idioma actual es Español, cambia la cookie a "Ingles"
+  if (idiomaActual === "Español") {
+    localStorage.setItem("idioma", "Ingles");
   }
-
-  return null;
-
-}
-
-idioma.addEventListener('click', function() {
-  let caducidad = new Date().getTime() + 7*24*60*60*1000;
-  if (this.textContent ===  "Es") {
-    document.cookie = `idioma=En; path=/; expires=${caducidad}`;
-    this.textContent = 'En';
-    location.reload();
-  } else if (this.textContent ===  "En") {
-    document.cookie = `idioma=Es; path=/; expires=${caducidad}`;
-    this.textContent = 'Es';
-    location.reload();
+  // Si el idioma actual es Ingles, cambia la cookie a "Español"
+  else {
+    localStorage.setItem("idioma", "Español");
   }
 });
-
-
-// Creamos una cookie
-//document.cookie = "idioma=" + encodeURIComponent( "Es" );
-
-// Leemos la cookie
-var miCookie = readCookie( "idioma" );
-document.getElementById("idioma").innerText = miCookie;
-
-
 
