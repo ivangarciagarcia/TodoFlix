@@ -9,17 +9,30 @@
 </head>
 <body>
     <div class="register-page">
-        <form class="registration-form">
+        <form id="registration-form" class="registration-form" novalidate>
             <h1>Create an account</h1>
+           
             <label for="username">Username:</label>
             <input id="username" type="text" placeholder="Enter your username" />
+           
             <label for="email">Email:</label>
             <input id="email" type="email" placeholder="Enter your email address" />
+           
             <label for="password">Password:</label>
             <input id="password" type="password" placeholder="Enter a password" />
-            <button id="register"><a href="/login.html">Register</a></button>
+           
+            <label>He leido y acepto los <a href="/Footer/terminosDeUso.html" target="_blank"><b>Terminos de uso</b></a></label> 
+            <input type="checkbox" name="registro" value="registro" id="registro"/> 
+            
+           
+            <input type="submit" value="Enviar" class="register" id="register">
+
+            <div id="errores" class="errores"></div>
         </form>
-          <script src="Imagenes y scripts/registro/registro.js"></script>
+
+        
+
+          <script src="Imagenes y scripts/registro/validacion.js"></script>
 
 </body>
 </html>
