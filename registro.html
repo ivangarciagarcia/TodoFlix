@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Imagenes y scripts/registro/registro.css">
-    <title>Document</title>
+    <title>TodoFlix Register</title>
 </head>
 <body>
     <div class="register-page">
@@ -21,11 +21,13 @@
             <label for="password">Password:</label>
             <input id="password" type="password" placeholder="Enter a password" />
            
-            <label>He leido y acepto los <a href="/Footer/terminosDeUso.html" target="_blank"><b>Terminos de uso</b></a></label> 
+            <label class="check">He leido y acepto los <a href="/Footer/terminosDeUso.html" target="_blank"><b>Terminos de uso</b></a></label> 
             <input type="checkbox" name="registro" value="registro" id="registro"/> 
+<br>
+            <label class="check">Quiero recibir emails<input type="checkbox" name="email" value="email" id="email"/> </label> 
             
            
-            <input type="submit" value="Enviar" class="register" id="register">
+            <input type="button" value="Enviar" class="register" id="register">
 
             <div id="errores" class="errores"></div>
         </form>

@@ -1,43 +1,51 @@
 html{
   background-color: #BA8F70;
 }
+
 a {
-   text-decoration:none;
-   color: #BA8F70; 
-} 
-
-.login a{
-  text-decoration:none;
-  color: white; 
-} 
-
-
-.login-form:before {
-  content: "Login"; /* adds the text "Login" before the form */
-  display: block;
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: black;
 }
 
-
 .login-form {
-  
   position: absolute; /* positions the form absolutely within its container */
   top: 50%; /* positions the form vertically in the middle of the page */
   left: 50%; /* positions the form horizontally in the middle of the page */
   transform: translate(-50%, -50%); /* offsets the form to account for its own size */
   width: 400px;
+  margin: auto;
   padding: 30px;
   border: 1px solid #ccc;
-  border-radius: 5px;
   background-color: white;
+  border-radius: 5px;
 }
 
-#user,
-#pass {
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+label {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.check {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+input[type="checkbox"] {
+  position: absolute; /* Position the checkbox absolutely */
+  top: -6px; /* Align the top of the checkbox with the top of the label */
+  right: 55px; /* Align the left of the checkbox with the left of the label */
+}
+
+
+input {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;

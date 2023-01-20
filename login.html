@@ -9,15 +9,28 @@
 </head>
 <body>
     <div class="login-page">
-        <div class="form">
-          <form class="login-form">
-            <input id="user" type="text" placeholder="Username" />
-            <input id="pass" type="password" placeholder="Password" />
-            <button id="login" class="login"><a href="/index.html">Login</a></button>
-            <p><a href="/registro.html">Registrate aqui</a></p>
+        <form id="login-form" class="login-form" novalidate>
+            <h1>Login</h1>
+           
+            
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Enter your email address" />
+           
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Enter a password" />
+           
+            <label class="check">Recuerdame<input type="checkbox" name="recuerda" value="recuerda" id="recuerda"/> </label> 
+            
+            <p>Si no tienes cuenta <a href="registro.html"><b>Registrate aqui</b></a></p>
+           
+            <input type="button" value="Login" class="login" id="login">
+
+            <div id="errores" class="errores"></div>
         </form>
-        </div>
-      </div>
-      <script src="Imagenes y scripts/login/login.js"></script>
+
+        
+
+          <script src="Imagenes y scripts/login/validacion.js"></script>
+
 </body>
 </html>

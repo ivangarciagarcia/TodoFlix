@@ -28,8 +28,26 @@ h1 {
 }
 
 label {
-  display: block;
+  display: inline-block;
   margin-bottom: 8px;
+  position: relative; /* Position the label relatively */
+
+}
+
+.check {
+  margin-left: 20px;
+}
+
+input[name="registro"] {
+  position: absolute; /* Position the checkbox absolutely */
+  top: 27em;
+  right: 192px;/* Align the left of the checkbox with the left of the label */
+  box-sizing: border-box;
+}
+input[name="email"] {
+  position: absolute; /* Position the checkbox absolutely */
+  top: -5px; /* Align the top of the checkbox with the top of the label */
+  right: 80px;/* Align the left of the checkbox with the left of the label */
 }
 
 input {
