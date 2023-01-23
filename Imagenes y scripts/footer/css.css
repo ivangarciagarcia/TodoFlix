@@ -117,6 +117,24 @@
     position: relative;
   }
 
+  /*Main*/
+
+  .text-column {
+    margin: 0 auto; /* centra el elemento en la página */
+    text-align: left; /* alinea el texto a la izquierda */
+    width: 40%; /* establece el ancho de la columna (ajusta según necesidad) */
+    font-size: 20px;
+  }
+
+  .titulo {
+    margin-left: 10em;
+  }
+
+  .subtitulo {
+    margin-bottom: 10px;
+  }
+
+
   /*Footer*/
 
 .footer-distributed {
