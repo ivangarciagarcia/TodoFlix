@@ -117,41 +117,6 @@ ol {
   position: relative;
 }
 
-/*BARRA BUSQUEDA*/
-.box {
-  margin-left: 90px;
-  width: 55%;
-
-}
-
-.container-1 {
-  padding: 10 40px 10 25px;
-  position: center;
-  padding-bottom: 3em;
-  margin: 0 auto;
-  padding-top: 30px;
-  height: 50px;
-  align-content: center;
-  align-items: center;
-  width: 300px;
-  vertical-align: middle;
-  white-space: nowrap;
-  position: relative;
-}
-
-.container-1 input#search {
-  width: 1200px;
-  height: 60px;
-  background: #292c2f;
-  border: none;
-  font-size: 10pt;
-  float: left;
-  color: #ffffff;
-  padding-left: 45px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
 
 /*MAIN*/
 
