@@ -27,10 +27,21 @@
     </header>
     <main>
         <body>
-            <h1>Contactanos</h1>
-            <form action="contacto">
+            <h1 class="titulo">Formulario de contacto</h1>
+            <p class="subtitulo-contacto">Describa con el maximo detalle posible el problema o pregunta que tenga</p>
+            <br>
+            <form action="" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name"><br>
                 
-            </form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message"></textarea><br>
+                
+                <input type="submit" value="Enviar">
+              </form>
         </body>
     </main>
     <footer class="footer-distributed">
