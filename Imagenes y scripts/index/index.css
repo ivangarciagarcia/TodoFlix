@@ -32,6 +32,10 @@ header {
   font-size: 35px;
 }
 
+.menu ul .item1 a{
+  background-color: #aa7e5f;
+}
+
 .idioma {
   margin-right: 0px;
   padding-left: 400px;
