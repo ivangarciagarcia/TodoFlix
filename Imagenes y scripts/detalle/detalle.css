@@ -53,19 +53,12 @@ header {
   float: left;
 }
 
-ul,
-ol {
-  list-style: none;
-}
-
 .menu>li {
   float: left;
 }
 
 .menu ul li a {
-  display: block;
   padding: 20px;
-  color: #fff;
   text-decoration: none;
 }
 
@@ -99,22 +92,6 @@ ol {
   text-decoration: none;
   padding: 10px 12px;
   display: block;
-}
-
-.menu li ul {
-  display: none;
-  position: absolute;
-  min-width: 140px;
-  right: auto;
-  top: auto
-}
-
-.menu li:hover>ul {
-  display: block;
-}
-
-.menu li ul li {
-  position: relative;
 }
 
 /*MAIN*/
