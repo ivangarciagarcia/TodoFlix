@@ -96,73 +96,130 @@ header {
 
   /*Main*/
 
-  .text-column {
-    margin: 0 auto; /* centra el elemento en la página */
-    text-align: left; /* alinea el texto a la izquierda */
-    width: 40%; /* establece el ancho de la columna (ajusta según necesidad) */
-    font-size: 20px;
-  }
+      /*FORM*/
+      form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+      }
+      
+      label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+      }
+      
+      input[type="submit"] {
+        background-color: #BA8F70;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
 
-  .titulo {
-    margin-left: 10em;
-  }
+      /*TEXT*/
+      .text-column {
+        margin: 0 auto; /* centra el elemento en la página */
+        text-align: left; /* alinea el texto a la izquierda */
+        width: 40%; /* establece el ancho de la columna (ajusta según necesidad) */
+        font-size: 20px;
+      }
+    
+      .titulo {
+        margin-bottom: 1em;
+        text-align: center;
+      }
+    
+      .subtitulo {
+        margin-bottom: 10px;
+      }
+      .subtitulo-contacto {
+        text-align: center;
+        margin-bottom: 10px;
+      }
 
-  .subtitulo {
-    margin-bottom: 10px;
-  }
 
 
-  /*Footer*/
-
-.footer-distributed {
-    margin-top: 2em;
-    background-color: #292c2f;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: normal 16px sans-serif;
-    padding: 45px 50px;
-  }
-  
-  .footer-distributed .footer-left p {
-    color: #8f9296;
-    font-size: 14px;
-    margin: 0;
-  }
-  
-  /* Footer links */
-  
-  .footer-distributed p.footer-links {
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffffff;
-    margin: 0 0 10px;
-    padding: 0;
-    transition: ease .25s;
-  }
-  
-  .footer-distributed p.footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
-    transition: ease .25s;
-  }
-  
-  .footer-distributed .footer-links a:before {
-    content: "·";
-    font-size: 20px;
-    left: 0;
-    color: #fff;
-    display: inline-block;
-    padding-right: 5px;
-  }
-  
-  .footer-distributed .footer-links .link-1:before {
-    content: none;
-  }
-  
-  .footer-links .link {
-    padding-left: 2em;
-  }
+    #about-us {
+        margin: 0 auto;
+        text-align: left;
+        width: 80%;
+        padding: 50px;
+    }
+    
+    #about-us h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    #about-us p {
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    
+      /*Footer*/
+    
+      .footer-distributed {
+        margin-top: 2em;
+        background-color: #292c2f;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: normal 16px sans-serif;
+        padding: 45px 50px;
+      }
+      
+      .footer-distributed .footer-left p {
+        color: #8f9296;
+        font-size: 14px;
+        margin: 0;
+      }
+      
+      /* Footer links */
+      
+      .footer-distributed p.footer-links {
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+        transition: ease .25s;
+      }
+      
+      .footer-distributed p.footer-links a {
+        display: inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color: inherit;
+        transition: ease .25s;
+      }
+      
+      .footer-distributed .footer-links a:before {
+        content: "·";
+        font-size: 20px;
+        left: 0;
+        color: #fff;
+        display: inline-block;
+        padding-right: 5px;
+      }
+      
+      .footer-distributed .footer-links .link-1:before {
+        content: none;
+      }
+      
+      .footer-links .link {
+        padding-left: 2em;
+      }
