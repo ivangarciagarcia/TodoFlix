@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+	<h4>Lista de tareas</h4>
+	<form name="frmGestionTareas" id="frmGestionTareas">
+		<label for="inputNuevaTarea">Agregar nueva tarea: </label>
+		<input type="text" id="txtNuevaTarea" name="txtNuevaTarea" required>
+		<input type="button" id="btnAgregarTarea" value="Agregar tarea">
+	</form>
+	<ul id="contenedorTareas"></ul>		
+</body>
+<script src="./script.js" type="module"></script>
+</html>
