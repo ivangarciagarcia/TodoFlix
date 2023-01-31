@@ -1,7 +1,7 @@
-{
-    "peliculas":[
+
+    [
         {
-            "id" : 1,
+            "id" : "01",
             "imagen":"Imagenes y scripts/img/tendencias/blackAdam.jpg" ,
             "titulo":"BlackAdam",
             "ano":2022,
@@ -11,7 +11,7 @@
             "trailer": "https://www.youtube.com/embed/_yn30cCrPJM"
         },
         {
-            "id" : 2,
+            "id" : "02",
             "imagen":"Imagenes y scripts/img/tendencias/smile.jpg" ,
             "titulo":"Smile",
             "ano":2022,
@@ -21,7 +21,7 @@
             "trailer": "https://www.youtube.com/embed/yhKiQGJop_8"
         },
         {
-            "id" : 3,
+            "id" : "03",
             "imagen":"Imagenes y scripts/img/tendencias/topGun.jpg" ,
             "titulo":"TopGun",
             "ano":2022,
@@ -31,7 +31,7 @@
             "trailer": "https://www.youtube.com/embed/zmFdhZ6gyUM"
         },
         {
-            "id" : 4,
+            "id" : "04",
             "imagen":"Imagenes y scripts/img/tendencias/wakanda.png" ,
             "titulo":"Black Panther: Wakanda forever",
             "ano":2022,
@@ -41,7 +41,7 @@
             "trailer": "https://www.youtube.com/embed/INvxJD4FzLk"
         },
         {
-            "id" : 5,
+            "id" : "05",
             "imagen":"Imagenes y scripts/img/tendencias/lepatient.jpg" ,
             "titulo":"Le Patient",
             "ano":2022,
@@ -51,7 +51,7 @@
             "trailer": "https://www.youtube.com/embed/_1DZJ7jYGbIU"
         },
         {
-            "id" : 6,
+            "id" : "06",
             "imagen":"Imagenes y scripts/img/tendencias/guardianes.jpg" ,
             "titulo":"Guardianes de la Galaxia: Especial Navidad ",
             "ano":2022,
@@ -61,7 +61,7 @@
             "trailer": "https://www.youtube.com/embed/qz8xmbg"
         },
         {
-            "id" : 7,
+            "id" : "07",
             "imagen":"Imagenes y scripts/img/tendencias/triangulo.jpg" ,
             "titulo":"Triangle of Sadness",
             "ano":2022,
@@ -71,7 +71,7 @@
             "trailer": "https://www.youtube.com/embed/CIa6_YRTU-g"
         },
         {
-            "id" : 8,
+            "id" : "08",
             "imagen":"Imagenes y scripts/img/tendencias/womanKing.jpg" ,
             "titulo":"WomanKing",
             "ano":2022,
@@ -81,7 +81,7 @@
             "trailer": "https://www.youtube.com/embed/HhGa--oFFkQ"
         },
         {
-            "id" : 9,
+            "id" : "09",
             "imagen":"Imagenes y scripts/img/estrenos/armagedon.jpg" ,
             "titulo":"Armageddon Time",
             "ano":2022,
@@ -161,4 +161,3 @@
             "trailer": "https://www.youtube.com/embed/O6hmIB3w"
         }
     ]
-}

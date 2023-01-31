@@ -1,62 +1,62 @@
 {
     "tendencias":[
         {
-            "id" : 1,
+            "id" : "01",
             "imagen":"Imagenes y scripts/img/tendencias/blackAdam.jpg" ,
             "titulo":"BlackAdam",
-            "url": "detalle.html#1"
+            "url": "detalle.html#01"
         },
         {
-            "id" : 2,
+            "id" : "02",
             "imagen":"Imagenes y scripts/img/tendencias/smile.jpg" ,
             "titulo":"Smile",
-            "url": "detalle.html#2"
+            "url": "detalle.html#02"
         },
         {
-            "id" : 3,
+            "id" : "03",
             "imagen":"Imagenes y scripts/img/tendencias/topGun.jpg" ,
             "titulo":"TopGun",
-            "url": "detalle.html#3"
+            "url": "detalle.html#03"
         },
         {
-            "id" : 4,
+            "id" : "04",
             "imagen":"Imagenes y scripts/img/tendencias/wakanda.png" ,
             "titulo":"Black Panther: Wakanda forever",
-            "url": "detalle.html#4"
+            "url": "detalle.html#04"
         }
     ],
     "tendencias2":[
         {
-            "id" : 5,
+            "id" : "05",
             "imagen":"Imagenes y scripts/img/tendencias/lepatient.jpg" ,
             "titulo":"Le Patient",
-            "url": "detalle.html#5"
+            "url": "detalle.html#05"
         },
         {
-            "id" : 6,
+            "id" : "06",
             "imagen":"Imagenes y scripts/img/tendencias/guardianes.jpg" ,
             "titulo":"Guardianes de la Galaxia: Especial Navidad ",
-            "url": "detalle.html#6"
+            "url": "detalle.html#06"
         },
         {
-            "id" : 7,
+            "id" : "07",
             "imagen":"Imagenes y scripts/img/tendencias/triangulo.jpg" ,
             "titulo":"Triangle of Sadness",
-            "url": "detalle.html#7"
+            "url": "detalle.html#07"
         },
         {
-            "id" : 8,
+            "id" : "08",
             "imagen":"Imagenes y scripts/img/tendencias/womanKing.jpg" ,
             "titulo":"WomanKing",
-            "url": "detalle.html#8"
+            "url": "detalle.html#08"
         }
     ],
     "estrenos":[
         {
-            "id" : 9,
+            "id" : "09",
             "imagen":"Imagenes y scripts/img/estrenos/armagedon.jpg" ,
             "titulo":"Armageddon Time",
-            "url": "detalle.html#9"
+            "url": "detalle.html#09"
         },
         {
             "id" : 10,
